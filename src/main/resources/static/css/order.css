@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.card {
+	border: 1px #D5D9D9 solid;
+}
+
+.order-info {
+	background-color: #F0F2F2;
+	border-bottom: 1px #D5D9D9 solid;
+}
+
+.size-mini {
+	font-size: 12px;
+    line-height: 16px;
+    color: #565959
+}
+
+.size-base {
+	font-size: 14px;
+    line-height: 20px;
+    color: #565959;
+}
+
+.popover-btn {
+	padding: 0;
+	border: none;
+	color: #007185;
+}
