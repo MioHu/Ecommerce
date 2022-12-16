@@ -19,6 +19,7 @@ Customer Module
 * Register, log in, log out
 * Product: view all products
 * Cart: add/remove product to cart, view cart
-* Order: place order, view user's own order
+* Order: place order, view user's orders
 
 ## Screenshoots
+Home
