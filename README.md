@@ -23,4 +23,4 @@ Customer Module
 
 ## Screenshoots
 Home
-![home](/screenshoots/home.png)
+![home](/screenshoots/home.png?raw=true "optional")
