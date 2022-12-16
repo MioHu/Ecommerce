@@ -139,7 +139,7 @@
 	                                </li>
 	                            </ul>
 
-                            	<button type="submit" class="btn btn-primary w-100">Pay Now</button>
+                            	<button type="submit" class="btn btn-primary w-100">Place Order</button>
 							</div>
 						</div>
 					</div>

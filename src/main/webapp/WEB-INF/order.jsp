@@ -78,7 +78,9 @@
 											</div>
 											<div class="size-base">
 												<button class="popover-btn" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-trigger="hover" data-bs-html="true" 
-												data-bs-content="<b>${order.firstName}  ${order.lastName}</b><br> ${order.line1}<br> ${order.line2}<br> ${order.city}, ${order.state} ${order.zip}<br> ${order.country}<br> Phone: ${order.phone}">
+												data-bs-content="<b>${order.firstName}  ${order.lastName}</b><br> ${order.line1}<br> 
+												<c:if test="${order.line2.length()>0}">${order.line2}<br></c:if>
+												 ${order.city}, ${order.state} ${order.zip}<br> ${order.country}<br> Phone: ${order.phone}">
 												  ${order.firstName}  ${order.lastName} <i class="bi bi-chevron-down"></i>
 												</button>
 											</div>

@@ -52,19 +52,19 @@
 			  </div>
 		</nav>
 		
-		<div class="row my-3 px-5">
+		<div class="my-3 px-5 d-flex flex-wrap justify-content-start">
 			<c:forEach var="item" items="${products}">
-				<div class="col col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-					<div class="card">
-						<img class="card-img-top" style="height:200px;object-fit: cover;" src="/productImages/${item.imgName}">
-						<div class="card-body">
-							<h5 class="card-title">${item.name}</h5>
-							<p class="card-text">
+				<div class="me-3 mb-3">
+					<div class="card" style="width:250px;height: 400px;">
+						<img class="card-img-top" height="250" width="250" src="/productImages/${item.imgName}">
+						<div class="card-body p-2">
+							<p class="mb-1" style="word-wrap:break-word;">${item.name}</p>
+							<p class="mb-1">
 								$<fmt:formatNumber type="number" pattern="#,##0.00" value="${item.price}"/>
 							</p>
 							<form action="/addToCart" method="post">
 								<input type="hidden" name="id" value="${item.id}"/>
-								<button class="btn btn-primary" type="submit">Add to cart</button>
+								<button class="btn btn-sm btn-primary" type="submit">Add to cart</button>
 							</form>
 						</div>
 					</div>

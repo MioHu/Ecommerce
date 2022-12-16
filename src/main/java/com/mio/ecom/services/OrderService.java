@@ -29,6 +29,10 @@ public class OrderService {
 		List<Object[]> result = orderRepository.getOrderByUserId(id);
 		List<Order> allOrders = new ArrayList<>();
 		
+		if (result.size() == 0) {
+			return allOrders;
+		}
+		
 		// orderId for oneOrder
 		Long orderId = convertId(result.get(0)[0]);
 		// initial oneOrder
@@ -100,6 +104,10 @@ public class OrderService {
 	public List<Order> getAllOrderWithProduct(){
 		List<Object[]> result = orderRepository.getAllOrderWithProduct();
 		List<Order> allOrders = new ArrayList<>();
+		
+		if (result.size() == 0) {
+			return allOrders;
+		}
 		
 		// orderId for oneOrder
 		Long orderId = convertId(result.get(0)[0]);
