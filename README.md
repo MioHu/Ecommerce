@@ -25,10 +25,9 @@ Administrator Module
 ### Customer section
 * Home, register, log in, log out
 
-![pic](/screenshots/home_regis_login_logout.gif =x250)
+![pic](/screenshots/home_regis_login_logout.gif width="200")
 
 * Add products to cart, remove from cart
-
 ![pic](/screenshots/cart.gif)
 * Place order, view order
 
