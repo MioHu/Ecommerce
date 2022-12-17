@@ -15,21 +15,27 @@ Customer Module
 * Product: view all products
 * Cart: add/remove product to cart, view cart
 * Order: place order, view user's orders
+
 Administrator Module
 * Only user with admin account can access management page
 * Product: view all products, add new product, update/delete existed product
 * Order: view all users' orders
 
 ## Screenshoots
-1. Customer section
+### Customer section
 * Home, register, log in, log out
+
 ![pic](/screenshots/home_regis_login_logout.gif)
 * Add products to cart, remove from cart
+
 ![pic](/screenshots/cart.gif)
 * Place order, view order
+
 ![pic](/screenshots/order.gif)
-2. Administrator section
+### Administrator section
 * Product
+
 ![pic](/screenshots/admin_product.gif)
 * Order
+
 ![pic](/screenshots/admin_order.gif)
