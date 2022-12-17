@@ -41,7 +41,7 @@ Administrator Module
 
 ![pic](/screenshots/admin_order.gif)
 
-## To Do 
+## Improvements
 - [ ] Payment gateway
 - [ ] Order status
 - [ ] OAuth
