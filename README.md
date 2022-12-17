@@ -40,3 +40,10 @@ Administrator Module
 * Order: view all users' orders
 
 ![pic](/screenshots/admin_order.gif)
+
+## To Do 
+[] payment gateway
+[] order status
+[] OAuth
+[] search products
+[] order id
