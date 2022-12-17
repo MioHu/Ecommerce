@@ -28,6 +28,7 @@ Administrator Module
 ![pic](/screenshots/home_regis_login_logout.gif)
 
 * Add products to cart, remove from cart
+
 ![pic](/screenshots/cart.gif)
 * Place order, view order
 
