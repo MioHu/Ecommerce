@@ -22,8 +22,9 @@ Customer Module
 * Order: place order, view user's orders
 
 ## Screenshoots
-![pic](/screenshoots/home_regis_login_logout.gif)
-![pic](/screenshoots/cart.gif)
-![pic](/screenshoots/order.gif)
-![pic](/screenshoots/admin_product.gif)
-![pic](/screenshoots/admin_order.gif)
+
+![pic](/screenshots/home_regis_login_logout.gif)
+![pic](/screenshots/cart.gif)
+![pic](/screenshots/order.gif)
+![pic](/screenshots/admin_product.gif)
+![pic](/screenshots/admin_order.gif)
