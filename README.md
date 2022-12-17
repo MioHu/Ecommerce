@@ -23,20 +23,20 @@ Administrator Module
 
 ## Screenshoots
 ### Customer section
-* Home, register, log in, log out
+* Home page, register, log in, log out
 
 ![pic](/screenshots/home_regis_login_logout.gif)
 
 * Add products to cart, remove from cart
 
 ![pic](/screenshots/cart.gif)
-* Place order, view order
+* Place order, view orders
 
 ![pic](/screenshots/order.gif)
 ### Administrator section
-* Product
+* Product: view all products, add new product, update/delete existed product
 
 ![pic](/screenshots/admin_product.gif)
-* Order
+* Order: view all users' orders
 
 ![pic](/screenshots/admin_order.gif)
