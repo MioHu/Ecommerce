@@ -71,7 +71,7 @@
 								  		<h5>Shipping Address</h5>
 								  		<p class="m-0">
 								  			${order.line1}<br>
-								  			${order.line2}<br>
+								  			<c:if test="${order.line2.length()>0}">${order.line2}<br></c:if>
 								  			${order.city}, ${order.state} ${order.zip}<br>
 								  			${order.country}<br> 
 								  			Phone: ${order.phone}

@@ -67,7 +67,7 @@
 						<form:input path="confirm" class="form-control" type="password" required="true"/>
 						<form:errors path="confirm"  class="text-danger"/>
 					</div>
-					<form:input type="hidden" path="role" value="admin"/>
+					<form:input type="hidden" path="role" value="customer"/>
 					<button type="submit" class="btn btn-primary">Submit</button>
 				</form:form>
 				<p class="mt-3">

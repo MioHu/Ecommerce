@@ -98,7 +98,7 @@
 		                        </div>
 		                        <div class="mt-3">
 		                            <form:label path="phone">Phone</form:label>
-		                            <form:input path="phone" minlength="10" maxlength="10" required="true" class="form-control"/>
+		                            <form:input path="phone" minlength="10" required="true" class="form-control"/>
 		                        </div>
 		                        <div class="mt-3">
 		                            <form:label path="note">Additional information</form:label>
