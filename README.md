@@ -13,7 +13,7 @@ The project is a simple full-stack e-commerce website built with Java.
 Customer Module
 * Register, log in, log out
 * Product: view all products
-* Cart: add/remove product to cart, view cart
+* Cart: add/remove product from cart, view cart
 * Order: place order, view user's orders
 
 Administrator Module
