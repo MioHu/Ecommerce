@@ -42,8 +42,8 @@ Administrator Module
 ![pic](/screenshots/admin_order.gif)
 
 ## To Do 
-- [] payment gateway
-- [] order status
-- [] OAuth
-- [] search products
-- [] order id
+- [ ] payment gateway
+- [ ] order status
+- [ ] OAuth
+- [ ] search products
+- [ ] order id
