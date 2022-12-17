@@ -46,5 +46,5 @@ Administrator Module
 - [ ] Order status
 - [ ] OAuth
 - [ ] Product category
-- [ ] Search products
+- [ ] Search product
 - [ ] Order ID
